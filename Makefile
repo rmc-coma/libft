@@ -6,7 +6,7 @@
 #    By: rmc-coma <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/11/27 13:18:15 by rmc-coma          #+#    #+#              #
-#    Updated: 2015/12/04 19:08:03 by rmc-coma         ###   ########.fr        #
+#    Updated: 2015/12/10 17:31:03 by rmc-coma         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -34,6 +34,7 @@ SRC =   ./ft_atoi.c \
 	./ft_lstiter.c \
 	./ft_lstmap.c \
 	./ft_lstnew.c \
+	./ft_lstind.c \
 	./ft_memalloc.c \
 	./ft_memccpy.c \
 	./ft_memchr.c \
@@ -98,6 +99,7 @@ OBJ = 	./ft_atoi.o \
 	./ft_lstiter.o \
 	./ft_lstmap.o \
 	./ft_lstnew.o \
+	./ft_lstind.o \
 	./ft_memalloc.o \
 	./ft_memccpy.o \
 	./ft_memchr.o \

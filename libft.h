@@ -6,7 +6,7 @@
 /*   By: rmc-coma <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/23 18:20:35 by rmc-coma          #+#    #+#             */
-/*   Updated: 2015/12/04 19:03:16 by rmc-coma         ###   ########.fr       */
+/*   Updated: 2015/12/11 16:16:33 by rmc-coma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,6 +84,7 @@ void				ft_lstadd(t_list **alst, t_list *new);
 void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 
+t_list				*ft_lstind(t_list *lst, size_t index);
 void				ft_lstapp(t_list **alst, t_list *new);
 void				*ft_memdup(void *mem, size_t size);
 int					ft_isupper(int c);
